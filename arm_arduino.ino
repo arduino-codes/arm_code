@@ -8,7 +8,6 @@
 //[hash defines]
 #define msgLength 5    //Determine the length of received message. 
 
-#define light A0       //Light on pin A0.
 
 //[variables]
 char msg=' ';
