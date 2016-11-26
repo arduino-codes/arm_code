@@ -35,7 +35,7 @@ void setup()
 /***************************************************************************************************/
 void loop()
 {  if (Serial.available() > 0)
-   { serial();
+   { //serial();
      spin(data[0]);
      bind(data[1]);
      gripper(data[2]);
