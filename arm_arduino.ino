@@ -44,19 +44,7 @@ void loop()
    }
 }
 /***************************************************************************************************/
-void pinsDeclaration()
-{
-   // Initialize motor pins as an output. 
-  pinMode(arm1.right ,OUTPUT);
-  pinMode(arm1.left ,OUTPUT);
-  pinMode(arm2.right ,OUTPUT);
-  pinMode(arm2.left ,OUTPUT);
-  pinMode(arm3.right ,OUTPUT);
-  pinMode(arm3.left ,OUTPUT);
-  pinMode(plate.right ,OUTPUT);
-  pinMode(plate.left ,OUTPUT);
-  pinMode(light, OUTPUT);
-}
+
 /***************************************************************************************************/
 void serial()
 { 
